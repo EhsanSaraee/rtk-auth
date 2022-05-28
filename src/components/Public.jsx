@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
-const Public = () => {
-   const content = (
+export const Public = () => {
+   return (
       <section className="public">
          <header>
             <h1>Welcome to Repair Store!</h1>
@@ -27,6 +27,4 @@ const Public = () => {
          </footer>
       </section>
    );
-   return content;
 };
-export default Public;
